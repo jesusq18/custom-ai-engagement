@@ -6,9 +6,9 @@ import Hero from "../components/Hero";
 import Demo from "../components/Demo";
 import HowItWorks from "../components/HowItWorks";
 import Integration from "../components/Integration";
+import Booking from "../components/Booking";
 import FAQ from "../components/FAQ";
 import About from "../components/About";
-import Booking from "../components/Booking";
 import Footer from "../components/Footer";
 
 const Index = () => {
@@ -52,9 +52,9 @@ const Index = () => {
           <Demo />
           <HowItWorks />
           <Integration />
+          <Booking />
           <FAQ />
           <About />
-          <Booking />
           <Footer />
         </motion.div>
       </div>
