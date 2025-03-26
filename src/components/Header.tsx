@@ -17,7 +17,6 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Demo", href: "#demo" },
     { name: "Como Funciona", href: "#how-it-works" },
     { name: "Integrações", href: "#integration" },
     { name: "FAQ", href: "#faq" },
@@ -35,7 +34,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-white">
-            <span className="gradient-text">IA</span>tendimento
+            <span className="gradient-text">IA</span>tendimientos
           </a>
 
           {/* Desktop Navigation */}
@@ -50,8 +49,10 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="#booking"
+              href="https://wa.me/5511964347951?text=Olá!%20Gostaria%20de%20agendar%20uma%20reunião%20para%20conhecer%20mais%20sobre%20as%20soluções%20de%20atendimento%20personalizado."
               className="btn-primary text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Agendar Reunião
             </a>
@@ -112,9 +113,11 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="#booking"
+                href="https://wa.me/5511964347951?text=Olá!%20Gostaria%20de%20agendar%20uma%20reunião%20para%20conhecer%20mais%20sobre%20as%20soluções%20de%20atendimento%20personalizado."
                 className="btn-primary text-center text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Agendar Reunião
               </a>

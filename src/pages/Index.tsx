@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import About from "../components/About";
 import HowItWorks from "../components/HowItWorks";
 import Integration from "../components/Integration";
 import Booking from "../components/Booking";
 import FAQ from "../components/FAQ";
-import About from "../components/About";
 import Footer from "../components/Footer";
 
 const Index = () => {
@@ -48,11 +48,13 @@ const Index = () => {
         >
           <Header />
           <Hero />
+          <About />
           <HowItWorks />
           <Integration />
+          <div className="py-8"> {/* Reduced spacing */}
+            <FAQ />
+          </div>
           <Booking />
-          <FAQ />
-          <About />
           <Footer />
         </motion.div>
       </div>
