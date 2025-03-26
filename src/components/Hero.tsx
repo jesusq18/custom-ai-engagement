@@ -82,31 +82,6 @@ const Hero = () => {
           </motion.div>
         </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
-      >
-        <div className="flex flex-col items-center">
-          <span className="text-white/50 text-sm mb-2">Conheça mais</span>
-          <div className="w-6 h-10 border-2 border-white/20 rounded-full flex justify-center p-1">
-            <motion.div 
-              className="w-1.5 h-1.5 bg-white rounded-full"
-              animate={{ 
-                y: [0, 12, 0],
-              }}
-              transition={{ 
-                repeat: Infinity, 
-                duration: 1.5,
-                ease: "easeInOut"
-              }}
-            />
-          </div>
-        </div>
-      </motion.div>
     </section>
   );
 };
