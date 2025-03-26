@@ -48,13 +48,11 @@ const Index = () => {
         >
           <Header />
           <Hero />
-          <About />
           <HowItWorks />
           <Integration />
-          <div className="py-8"> {/* Reduced spacing */}
-            <FAQ />
-          </div>
           <Booking />
+          <About />
+          <FAQ />
           <Footer />
         </motion.div>
       </div>
