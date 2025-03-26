@@ -79,7 +79,7 @@ const About = () => {
           >
             <div className="glassmorphism p-1 rounded-2xl mb-6 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                src="https://jesus-storage.s3.us-east-1.amazonaws.com/2R2A5567-Editar+(1).jpg"
                 alt="Jesús Quintero"
                 className="w-full h-auto rounded-2xl"
               />

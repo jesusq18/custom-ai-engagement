@@ -29,7 +29,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen pt-24 flex items-center">
+    <section id="hero" className="relative min-h-screen pt-24 pb-16 flex items-center">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden -z-10">
         <div className="absolute top-1/4 -left-20 w-72 h-72 bg-neon/20 rounded-full filter blur-3xl opacity-30 animate-pulse-soft"></div>
@@ -80,22 +80,6 @@ const Hero = () => {
               <span className="absolute inset-0 bg-white/10 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
             </button>
           </motion.div>
-        </motion.div>
-
-        {/* Floating mockup */}
-        <motion.div 
-          className="mt-16 max-w-2xl mx-auto"
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
-        >
-          <div className="glassmorphism p-0.5 rounded-2xl overflow-hidden animate-float shadow-xl shadow-neon/5">
-            <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80" 
-              alt="Atendimento IA Demo" 
-              className="w-full h-auto rounded-2xl"
-            />
-          </div>
         </motion.div>
       </div>
 
