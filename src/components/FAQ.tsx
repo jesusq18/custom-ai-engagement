@@ -7,11 +7,6 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "Como funciona a simulação do atendimento?",
-      answer:
-        "A simulação é baseada em inteligência artificial, que analisa o contexto do seu negócio e cria respostas personalizadas. Utilizamos modelos avançados de IA como GPT-4 para garantir respostas precisas e naturais, adaptadas ao tom e necessidades da sua empresa.",
-    },
-    {
       question: "Preciso ter conhecimentos técnicos para usar a solução?",
       answer:
         "Não! Nossa solução é projetada para ser acessível a qualquer empresa, independentemente do nível técnico. Eu, Jesús, cuido de toda a configuração e implementação técnica. Você só precisa fornecer informações sobre seu negócio e aprovar as personalizações.",
@@ -24,7 +19,7 @@ const FAQ = () => {
     {
       question: "Como a integração com CRMs e ERPs pode beneficiar meu negócio?",
       answer:
-        "A integração permite que o sistema de IA acesse informações em tempo real sobre estoque, pedidos, histórico de clientes e outros dados cruciais. Isso torna o atendimento mais eficiente, permitindo respostas precisas sobre produtos disponíveis, status de pedidos e informações personalizadas para cada cliente, sem intervenção humana.",
+        "A integração permite que o sistema de IA não apenas acesse informações em tempo real sobre estoque, pedidos, histórico de clientes e outros dados cruciais, mas também possa inserir e atualizar dados diretamente nos sistemas. Isso torna o atendimento mais eficiente, permitindo respostas precisas sobre produtos disponíveis, status de pedidos, e até mesmo o registro de novas vendas, agendamentos ou cadastros de clientes, tudo sem intervenção humana.",
     },
     {
       question: "Quanto tempo leva para implementar a solução?",

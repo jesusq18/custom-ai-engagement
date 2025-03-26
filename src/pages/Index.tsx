@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Demo from "../components/Demo";
 import HowItWorks from "../components/HowItWorks";
 import Integration from "../components/Integration";
 import Booking from "../components/Booking";
@@ -49,7 +48,6 @@ const Index = () => {
         >
           <Header />
           <Hero />
-          <Demo />
           <HowItWorks />
           <Integration />
           <Booking />

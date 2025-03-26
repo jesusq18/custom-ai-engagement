@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   const handleWhatsAppRedirect = () => {
-    window.open("https://wa.me/yournumber?text=Olá!%20Gostaria%20de%20agendar%20uma%20reunião%20para%20conhecer%20mais%20sobre%20as%20soluções%20de%20atendimento%20personalizado.", "_blank");
+    window.open("https://wa.me/5511964347951?text=Olá!%20Gostaria%20de%20agendar%20uma%20reunião%20para%20conhecer%20mais%20sobre%20as%20soluções%20de%20atendimento%20personalizado.", "_blank");
   };
 
   return (
